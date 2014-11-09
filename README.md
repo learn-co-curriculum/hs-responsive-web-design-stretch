@@ -18,7 +18,7 @@ Percentages are a very useful unit of measurement, and should always be used for
 ###Media Queries
 A Media Query is a special kind of CSS selector. It contains styles that are only activated once certain conditions are met. The idea is to create styles that are only activated when the page has attributes that only happen when they are being displayed on a mobile device. So how do media queries work? Well, there are many kinds, but a very common one looks something like this:
 
-```CSS
+```css
 @media screen and (max-width: 480px){
 	//some CSS
 }

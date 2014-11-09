@@ -1,0 +1,23 @@
+.wrapper{
+	width:100%;
+}
+
+.header{
+	width:100%;
+	text-align:center;
+}
+
+.body{
+	width:100%;
+}
+
+.content{
+	width:64.5%;
+	float:left;
+}
+
+.sidebar{
+	margin-top:4rem;
+	width:31.5%;
+	float:right;
+}

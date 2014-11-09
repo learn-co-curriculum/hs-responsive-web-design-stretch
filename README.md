@@ -1,12 +1,12 @@
 #Welcome to RWD!
 
-By this point, as super-master-frontend wizards, you might be thinking, "But what if I want to see my beautiful page on my iPhone/Android/iPad/Kindle/Generic Mobile Device?" Well, now's your time. Welcome to the wonderful world of Responsive Web Design.
+By this point, as super-master-front-end wizards, you might be thinking, "But what if I want to see my beautiful page on my iPhone/Android/iPad/Kindle/Generic Mobile Device?" Well, now's your time. Welcome to the wonderful world of Responsive Web Design.
 
 ##What is RWD?
 
-RWD, or Responsive Web Design is the practice of making your webiste or webapp *respond* to different environments that it finds itself in, and adapt accordingly. So how do we acheive this? There are a few ways to do this, but the two main ways are through relative units and media queries.
+RWD, or Responsive Web Design is the practice of making your website or web app *respond* to different environments that it finds itself in, and adapt accordingly. So how do we achieve this? There are a few ways to do this, but the two main ways are through relative units and media queries.
 
-###Relitive Units
+###Relative Units
 In RWD, it is necessary to use relative units. In today's tech world, pixel sizes are getting smaller and smaller by the day. So, a border of 3px might look right on your screen, but on another monitor it might look too big or too small. So we want to use a unit called REMs for height, and percentage values for width.
 
 ####REMs
@@ -32,7 +32,7 @@ But what exactly does that mean? Well, let's break it down.
 
 `and` is just an operator that tells the browser that there's more on the way.
 
-`(max-width: 480px)` is the real meat of the query. This is saying that these styles should only be activated when the browser window has a width of less than 480 pixels.  Many smartphones have a screen width of around 480px, so 480 is a good ballpark guess for screen size.
+`(max-width: 480px)` is the real meat of the query. This is saying that these styles should only be activated when the browser window has a width of less than 480 pixels.  Many smart phones have a screen width of around 480px, so 480 is a good ballpark guess for screen size.
 
 Then, inside the `{}`, you put all of the CSS styles that should be applied. Use the normal syntax of CSS in the query's body.
 
